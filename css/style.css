@@ -11,8 +11,7 @@ body {
   padding: 0;
 }
 
-
-main{
+main {
   display: flex;
   justify-content: center;
   height: 100%;
@@ -21,7 +20,6 @@ main{
 
 .card {
   width: 16rem;
-	height: 26rem;
   padding: 0.8rem;
   border-radius: 1rem;
   background-color: hsl(0, 0%, 100%);
@@ -34,27 +32,29 @@ main{
 }
 
 .text {
-	font-family: "Outfit";
+  font-family: "Outfit";
   text-align: center;
 }
 
-.text h3 {
-  font-size: 1.3rem;
+.text h1 {
+  font-size: 21px;
   font-weight: 700;
   color: hsl(218, 44%, 22%);
 }
 
 .text .subtitle p {
+  color: hsl(220, 15%, 55%);
   font-size: 15px;
   font-weight: 400;
-  color: hsl(220, 15%, 55%);
+  margin: auto;
+  width: 80%;
 }
 
 Footer {
-  position: fixed;
+	position: fixed;
+	bottom: 0;
   text-align: center;
-  font-size: 11px;
-  bottom: 0;
+  font-size: 15px;
 }
 
 Footer a {
