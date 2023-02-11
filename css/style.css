@@ -12,7 +12,7 @@ body {
 }
 
 
-.container {
+main{
   display: flex;
   justify-content: center;
   height: 100%;
@@ -38,7 +38,7 @@ body {
   text-align: center;
 }
 
-.text .title {
+.text h3 {
   font-size: 1.3rem;
   font-weight: 700;
   color: hsl(218, 44%, 22%);
