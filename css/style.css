@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Outfit";
+  src: url("/css/Outfit-VariableFont_wght.ttf") format("truetype");
+}
+
+html,
+body {
+  background-color: hsl(212, 45%, 89%);
+  height: 100%;
+  margin: auto;
+  padding: 0;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+
+.card {
+  width: 16rem;
+	height: 26rem;
+  padding: 0.8rem;
+  border-radius: 1rem;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.img-qrcode {
+  width: 16rem;
+  height: 16rem;
+  border-radius: 0.6rem;
+}
+
+.text {
+	font-family: "Outfit";
+  text-align: center;
+}
+
+.text .title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+}
+
+.text .subtitle p {
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+}
+
+Footer {
+  position: fixed;
+  text-align: center;
+  font-size: 11px;
+  bottom: 0;
+}
+
+Footer a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* card tamanho 38%¨*/
