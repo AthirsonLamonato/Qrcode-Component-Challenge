@@ -1,11 +1,9 @@
-@font-face {
-  font-family: "Outfit";
-  src: url("/css/Outfit-VariableFont_wght.ttf") format("truetype");
-}
+@import url('https://fonts.gstatic.com/s/heebo/v21/NGSpv5_NC0k9P_v6ZUCbLRAHxK1EiSysd0mm_00.woff2');
 
 html,
 body {
   background-color: hsl(212, 45%, 89%);
+	font-family: 'Convergence', sans-serif;
   height: 100%;
   margin: auto;
   padding: 0;
@@ -32,22 +30,19 @@ main {
 }
 
 .text {
-  font-family: "Outfit";
   text-align: center;
 }
 
 .text h1 {
-  font-size: 21px;
+  font-size: 1.2rem;
   font-weight: 700;
   color: hsl(218, 44%, 22%);
 }
 
-.text .subtitle p {
+.text p {
   color: hsl(220, 15%, 55%);
   font-size: 15px;
   font-weight: 400;
-  margin: auto;
-  width: 80%;
 }
 
 Footer {
@@ -60,5 +55,3 @@ Footer {
 Footer a {
   color: hsl(228, 45%, 44%);
 }
-
-/* card tamanho 38%¨*/
